@@ -21,7 +21,7 @@ def load_cache():
     Returns
     -------
     dict
-        the cache in the python type of cache
+        the cache in the python type of dict
     '''
     try:
         cache_file=open(CACHE_FILE_NAME, 'r')
