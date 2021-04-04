@@ -138,7 +138,7 @@ def build_state_url_dict():
     '''
     url_dict={}
     url=' https://www.nps.gov/index.htm'
-    base_url='http://www.nps.gov'
+    base_url='https://www.nps.gov'
     rep_text=make_url_request_use_cache(url, CACHE_DICT)
     soup=BeautifulSoup(rep_text, 'html.parser')
     ul=soup.find('ul', class_='dropdown-menu SearchBar-keywordSearch')
